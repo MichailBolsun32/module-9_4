@@ -1,7 +1,6 @@
 #Даны 2 строки:
 # first = 'Мама мыла раму'
 # second = 'Рамена мало было'
-from random import random
 
 first = 'Мама мыла раму'
 second = 'Рамена мало было'
@@ -24,7 +23,7 @@ print(result)
 # Данный код:
 # write = get_advanced_writer('example.txt')
 # write('Это строчка', ['А', 'это', 'уже', 'число', 5, 'в', 'списке'])
-import io
+
 def get_advanced_writer(file_name):
 
     def write_everything(*data_set):
